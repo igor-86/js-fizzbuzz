@@ -8,16 +8,17 @@ for (let n = 1; n <= 100; n++){
     let mulCinque = "";
     let mulTop = "";
     if (n % 3 === 0){
-        mulTre = "mtre";
+        mulTre = "Fizz";
     } 
 
     if (n % 5 === 0) {
-        mulCinque = "mcinque";
+        mulCinque = "Buzz";
     } 
 
     if (n % 3 === 0 & n % 5 ===0){
-        mulTop = "mtop";
+        mulTop = "FizzBuzz";
     }
+
     console.log(n, mulTre, mulCinque, mulTop);
    
     
