@@ -9,17 +9,15 @@ for (let n = 1; n <= 100; n++){
     let mulTop = "";
     if (n % 3 === 0){
         mulTre = "Fizz";
-    } 
-
-    if (n % 5 === 0) {
+    } else if ( n % 5 === 0) {
         mulCinque = "Buzz";
+    } else if (n % 3 === 0 & n % 5 === 0) {
+        mulTop = "Fizz Buzz";
     } 
 
-    if (n % 3 === 0 & n % 5 ===0){
-        mulTop = "FizzBuzz";
-    }
+  
 
-    console.log(n, mulTre, mulCinque, mulTop);
+    console.log(n,mulTre,mulCinque,mulTop);
    
     
 
